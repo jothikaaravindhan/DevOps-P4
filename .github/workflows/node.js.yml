@@ -30,7 +30,7 @@ jobs:
           cache: 'npm'
       - name: npm install, and test
         run: |
-         npm run install
+         npm install
          npm test
         env: 
           CI: true
